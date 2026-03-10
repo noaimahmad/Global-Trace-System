@@ -1,20 +1,78 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+# 🔍 Global Trace
+
+### Advanced IP • Device • Phone Intelligence Dashboard
+
+![License](https://img.shields.io/badge/license-MIT-green)
+![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen)
+![MongoDB](https://img.shields.io/badge/database-MongoDB-green)
+![React](https://img.shields.io/badge/frontend-React-blue)
+![Status](https://img.shields.io/badge/status-active-success)
+
+Modern cybersecurity dashboard for **IP analysis, device intelligence, and real-time monitoring**.
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+# 📸 App Screenshot
 
-View your app in AI Studio: https://ai.studio/apps/b221f5ee-a8b4-406e-82da-aa8febdb9398
+<div align="center">
 
-## Run Locally
+![Global Trace Dashboard](docs/dashboard.png)
 
-**Prerequisites:**  Node.js
+</div>
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+# 🚀 Features
+
+### 🌐 IP Intelligence
+- Public IP detection
+- Location lookup
+- IP reputation checker
+- Risk score monitoring
+
+### 🖥 Device Fingerprinting
+- Browser fingerprint ID
+- Device tracking tools
+- Activity monitoring
+
+### 📱 Phone Intelligence
+- Phone validator
+- IMEI intelligence lookup
+- IMEI live tracking
+
+### 🛡 Security Monitoring
+- Fraud detection
+- Suspicious login alerts
+- Risk monitoring dashboard
+
+### 📊 Analytics
+- Inspection activity graph
+- Security alerts
+- Real-time monitoring
+
+---
+
+# 🧰 Tech Stack
+
+| Layer | Technology |
+|------|-------------|
+Frontend | React / Next.js |
+Backend | Node.js + Express |
+Database | MongoDB Atlas |
+Styling | TailwindCSS |
+Deployment | Vercel |
+
+---
+
+# ⚙️ Run Locally
+
+**Prerequisites:** Node.js 18+
+
+### 1️⃣ Install dependencies
+
+```bash
+npm install
