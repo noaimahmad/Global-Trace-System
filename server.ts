@@ -8,10 +8,10 @@ import dotenv from "dotenv";
 // Load environment variables at the very beginning
 dotenv.config();
 
-import authRoutes from "./server/routes/auth.ts";
-import apiRoutes from "./server/routes/api.ts";
-import adminRoutes from "./server/routes/admin.ts";
-import { connectDB } from "./src/lib/mongodb.ts";
+import authRoutes from "./server/routes/auth.js";
+import apiRoutes from "./server/routes/api.js";
+import adminRoutes from "./server/routes/admin.js";
+import { connectDB } from "./src/lib/mongodb.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

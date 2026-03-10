@@ -1,4 +1,4 @@
-import db from './src/lib/sqlite.ts';
+import db from './src/lib/sqlite.js';
 import bcrypt from 'bcryptjs';
 
 async function seed() {

@@ -1,7 +1,7 @@
 import express from 'express';
-import { authenticate } from './auth.ts';
-import db from '../../src/lib/sqlite.ts';
-import { IpCheck, PhoneCheck, IndicatorCheck, Session, FraudReport, isConnected } from '../../src/lib/mongodb.ts';
+import { authenticate } from './auth.js';
+import db from '../../src/lib/sqlite.js';
+import { IpCheck, PhoneCheck, IndicatorCheck, Session, FraudReport, isConnected } from '../../src/lib/mongodb.js';
 import { parsePhoneNumberFromString } from 'libphonenumber-js';
 
 const router = express.Router();
