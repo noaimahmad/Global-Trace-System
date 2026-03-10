@@ -1,0 +1,7 @@
+{
+  "name": "Global Trace System",
+  "description": "A modern cybersecurity and device-insight dashboard for lawful network and account inspection.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
