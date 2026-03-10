@@ -11,10 +11,17 @@
       "config": { "distDir": "dist" }
     }
   ],
+  "functions": {
+    "server.ts": {
+      "includeFiles": "{server/**,src/**,*.ts,*.js,*.json,*.env}"
+    }
+  },
   "routes": [
-    {      "handle": "filesystem"
+    {
+      "handle": "filesystem"
     },
-    {      "src": "/api/(.*)",
+    {
+      "src": "/api/(.*)",
       "dest": "server.ts"
     },
     {
