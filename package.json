@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
-    "build:server": "esbuild server.ts --bundle --platform=node --outfile=dist/server.js --format=esm --sourcemap --external:vite --external:lightningcss",
+    "build:server": "esbuild server.ts --bundle --platform=node --outfile=build/server.js --format=esm --sourcemap --external:vite --external:lightningcss",
     "build": "npm run build:server && vite build",
     "start": "vite preview --host 0.0.0.0 --port 3000",
     "preview": "vite preview",
