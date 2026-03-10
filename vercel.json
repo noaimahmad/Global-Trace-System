@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "server.ts",
+      "src": "dist/server.js",
       "use": "@vercel/node"
     },
     {
@@ -12,7 +12,7 @@
     }
   ],
   "functions": {
-    "server.ts": {
+    "dist/server.js": {
       "includeFiles": "{server/**,src/**,*.ts,*.js,*.json,*.env}"
     }
   },
@@ -22,7 +22,7 @@
     },
     {
       "src": "/api/(.*)",
-      "dest": "server.ts"
+      "dest": "dist/server.js"
     },
     {
       "src": "/(.*)",

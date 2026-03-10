@@ -1,5 +1,4 @@
 import express from "express";
-import { createServer as createViteServer } from "vite";
 import path from "path";
 import { fileURLToPath } from "url";
 import cookieParser from "cookie-parser";
@@ -52,6 +51,7 @@ async function configureApp() {
     
     if (!isProd) {
       console.log("Starting Vite in middleware mode...");
+      const { createServer: createViteServer } = await import('vite');
       const vite = await createViteServer({
         server: { 
           middlewareMode: true,
