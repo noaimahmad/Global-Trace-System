@@ -22,7 +22,7 @@
     },
     {
       "src": "/api/(.*)",
-      "dest": "dist/server.js"
+      "dest": "build/server.js"
     },
     {
       "src": "/(.*)",
