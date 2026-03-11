@@ -1,4 +1,4 @@
-import { User, connectDB } from './src/lib/mongodb.js';
+import { User, connectDB } from './src/lib/mongodb.ts';
 import bcrypt from 'bcryptjs';
 import mongoose from 'mongoose';
 

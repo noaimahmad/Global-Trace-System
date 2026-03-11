@@ -1,8 +1,8 @@
 import express from 'express';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import db from '../../src/lib/sqlite.js';
-import { User, Session, isConnected } from '../../src/lib/mongodb.js';
+import db from '../../src/lib/sqlite.ts';
+import { User, Session, isConnected } from '../../src/lib/mongodb.ts';
 
 const router = express.Router();
 const JWT_SECRET = process.env.JWT_SECRET || 'super-secret-key';

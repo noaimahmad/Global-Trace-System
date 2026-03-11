@@ -1,7 +1,7 @@
 import express from 'express';
-import { authenticate } from './auth.js';
-import db from '../../src/lib/sqlite.js';
-import { User, FraudReport, IpCheck, PhoneCheck, IndicatorCheck, isConnected } from '../../src/lib/mongodb.js';
+import { authenticate } from './auth.ts';
+import db from '../../src/lib/sqlite.ts';
+import { User, FraudReport, IpCheck, PhoneCheck, IndicatorCheck, isConnected } from '../../src/lib/mongodb.ts';
 
 const router = express.Router();
 
