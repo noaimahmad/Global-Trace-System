@@ -12,8 +12,8 @@
     }
   ],
   "functions": {
-    "server.ts": {
-      "includeFiles": "{server/**,src/**,*.ts,*.js,*.json,*.env}"
+    "server.js": {
+      "includeFiles": "server/**"
     }
   },
   "routes": [
