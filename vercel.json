@@ -12,7 +12,7 @@
     }
   ],
   "functions": {
-    "server.js": {
+    "server.ts": {
       "includeFiles": "{server/**,src/**,*.ts,*.js,*.json,*.env}"
     }
   },
