@@ -13,7 +13,14 @@
   ],
   "functions": {
     "build/server.js": {
-      "includeFiles": "{server/**,src/**,*.ts,*.js,*.json,*.env}"
+      "includeFiles": [
+        "server/**",
+        "src/**",
+        "*.ts",
+        "*.js",
+        "*.json",
+        "*.env"
+      ]
     }
   },
   "routes": [
